@@ -1,4 +1,4 @@
-package com.tale.controller.admin;
+package com.tale.master.controller.admin;
 
 import com.blade.ioc.annotation.Inject;
 import com.blade.jdbc.core.Take;
@@ -8,18 +8,18 @@ import com.blade.mvc.annotation.*;
 import com.blade.mvc.http.HttpMethod;
 import com.blade.mvc.http.Request;
 import com.blade.mvc.view.RestResponse;
-import com.tale.master.controller.BaseController;
-import com.tale.dto.LogActions;
-import com.tale.dto.Types;
-import com.tale.exception.TipException;
-import com.tale.ext.Commons;
-import com.tale.model.Contents;
-import com.tale.model.Metas;
-import com.tale.model.Users;
-import com.tale.service.ContentsService;
-import com.tale.service.LogService;
-import com.tale.service.MetasService;
-import com.tale.service.SiteService;
+import com.tale.master.master.controller.BaseController;
+import com.tale.master.dto.LogActions;
+import com.tale.master.dto.Types;
+import com.tale.master.exception.TipException;
+import com.tale.master.ext.Commons;
+import com.tale.master.model.Contents;
+import com.tale.master.model.Metas;
+import com.tale.master.model.Users;
+import com.tale.master.service.ContentsService;
+import com.tale.master.service.LogService;
+import com.tale.master.service.MetasService;
+import com.tale.master.service.SiteService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

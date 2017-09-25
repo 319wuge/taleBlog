@@ -1,4 +1,4 @@
-package com.tale.master.master.utils;
+package com.tale.master.utils;
 
 import com.blade.context.WebContextHolder;
 import com.blade.kit.DateKit;
