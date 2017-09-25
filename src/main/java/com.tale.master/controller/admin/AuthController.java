@@ -1,4 +1,4 @@
-package com.tale.controller.admin;
+package com.tale.master.controller.admin;
 
 import com.blade.ioc.annotation.Inject;
 import com.blade.kit.DateKit;
@@ -13,14 +13,14 @@ import com.blade.mvc.http.Request;
 import com.blade.mvc.http.Response;
 import com.blade.mvc.http.wrapper.Session;
 import com.blade.mvc.view.RestResponse;
-import com.tale.controller.BaseController;
-import com.tale.dto.LogActions;
-import com.tale.exception.TipException;
-import com.tale.init.TaleConst;
-import com.tale.model.Users;
-import com.tale.service.LogService;
-import com.tale.service.UsersService;
-import com.tale.utils.TaleUtils;
+import com.tale.master.controller.BaseController;
+import com.tale.master.dto.LogActions;
+import com.tale.master.exception.TipException;
+import com.tale.master.init.TaleConst;
+import com.tale.master.model.Users;
+import com.tale.master.service.LogService;
+import com.tale.master.service.UsersService;
+import com.tale.master.utils.TaleUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

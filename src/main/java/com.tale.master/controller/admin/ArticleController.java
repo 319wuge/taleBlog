@@ -8,7 +8,7 @@ import com.blade.mvc.annotation.*;
 import com.blade.mvc.http.HttpMethod;
 import com.blade.mvc.http.Request;
 import com.blade.mvc.view.RestResponse;
-import com.tale.master.master.controller.BaseController;
+import com.tale.master.controller.BaseController;
 import com.tale.master.dto.LogActions;
 import com.tale.master.dto.Types;
 import com.tale.master.exception.TipException;

@@ -1,5 +1,6 @@
 package com.tale.master.service;
 
+
 import com.tale.master.model.Logs;
 
 import java.util.List;
