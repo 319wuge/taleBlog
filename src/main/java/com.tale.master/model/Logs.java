@@ -1,13 +1,12 @@
-package com.tale.model;
+package com.tale.master.model;
 
 import com.blade.jdbc.annotation.Table;
-import com.tale.model.po.mbg.TLogs;
 
 import java.io.Serializable;
 
 // 日志记录对象
 @Table(name = "t_logs")
-public class Logs extends TLogs implements Serializable {
+public class Logs implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

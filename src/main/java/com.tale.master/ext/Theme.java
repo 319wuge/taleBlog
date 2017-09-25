@@ -1,16 +1,16 @@
-package com.tale.ext;
+package com.tale.master.ext;
 
 import com.blade.jdbc.model.Paginator;
 import com.blade.kit.StringKit;
-import com.tale.controller.BaseController;
-import com.tale.dto.Comment;
-import com.tale.dto.MetaDto;
-import com.tale.dto.Types;
-import com.tale.init.TaleConst;
-import com.tale.model.Comments;
-import com.tale.model.Contents;
-import com.tale.service.SiteService;
-import com.tale.utils.TaleUtils;
+import com.tale.master.controller.BaseController;
+import com.tale.master.dto.Comment;
+import com.tale.master.dto.MetaDto;
+import com.tale.master.dto.Types;
+import com.tale.master.init.TaleConst;
+import com.tale.master.model.Comments;
+import com.tale.master.model.Contents;
+import com.tale.master.service.SiteService;
+import com.tale.master.utils.TaleUtils;
 import jetbrick.template.runtime.InterpretContext;
 
 import java.io.UnsupportedEncodingException;

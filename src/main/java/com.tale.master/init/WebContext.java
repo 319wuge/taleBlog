@@ -1,4 +1,4 @@
-package com.tale.init;
+package com.tale.master.init;
 
 import com.blade.config.BConfig;
 import com.blade.context.WebContextListener;
@@ -11,17 +11,17 @@ import com.blade.kit.FileKit;
 import com.blade.kit.StringKit;
 import com.blade.mvc.view.ViewSettings;
 import com.blade.mvc.view.template.JetbrickTemplateEngine;
-import com.tale.controller.BaseController;
-import com.tale.controller.admin.AttachController;
-import com.tale.dto.Types;
-import com.tale.ext.AdminCommons;
-import com.tale.ext.Commons;
-import com.tale.ext.JetTag;
-import com.tale.ext.Theme;
-import com.tale.model.ExtSql2o;
-import com.tale.service.OptionsService;
-import com.tale.service.SiteService;
-import com.tale.utils.RewriteUtils;
+import com.tale.master.controller.BaseController;
+import com.tale.master.controller.admin.AttachController;
+import com.tale.master.dto.Types;
+import com.tale.master.ext.AdminCommons;
+import com.tale.master.ext.Commons;
+import com.tale.master.ext.JetTag;
+import com.tale.master.ext.Theme;
+import com.tale.master.model.ExtSql2o;
+import com.tale.master.service.OptionsService;
+import com.tale.master.service.SiteService;
+import com.tale.master.utils.RewriteUtils;
 import jetbrick.template.JetGlobalContext;
 import jetbrick.template.resolver.GlobalResolver;
 

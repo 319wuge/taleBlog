@@ -1,6 +1,6 @@
-package com.tale.service;
+package com.tale.master.service;
 
-import com.tale.model.Logs;
+import com.tale.master.model.Logs;
 
 import java.util.List;
 

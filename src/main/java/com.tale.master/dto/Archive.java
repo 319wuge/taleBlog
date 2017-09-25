@@ -1,6 +1,6 @@
-package com.tale.dto;
+package com.tale.master.dto;
 
-import com.tale.model.Contents;
+import com.tale.master.model.Contents;
 
 import java.io.Serializable;
 import java.util.Date;

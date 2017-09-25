@@ -1,4 +1,4 @@
-package com.tale.exception;
+package com.tale.master.exception;
 
 public class TipException extends RuntimeException {
 

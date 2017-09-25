@@ -1,4 +1,4 @@
-package com.tale.service.impl;
+package com.tale.master.service.impl;
 
 import com.blade.ioc.annotation.Inject;
 import com.blade.ioc.annotation.Service;
@@ -6,17 +6,17 @@ import com.blade.jdbc.ar.SampleActiveRecord;
 import com.blade.jdbc.core.Take;
 import com.blade.jdbc.model.Paginator;
 import com.blade.kit.*;
-import com.tale.controller.admin.AttachController;
-import com.tale.dto.*;
-import com.tale.exception.TipException;
-import com.tale.ext.Theme;
-import com.tale.init.SqliteJdbc;
-import com.tale.init.TaleConst;
-import com.tale.model.*;
-import com.tale.service.*;
-import com.tale.utils.MapCache;
-import com.tale.utils.TaleUtils;
-import com.tale.utils.ZipUtils;
+import com.tale.master.controller.admin.AttachController;
+import com.tale.master.dto.*;
+import com.tale.master.exception.TipException;
+import com.tale.master.ext.Theme;
+import com.tale.master.init.SqliteJdbc;
+import com.tale.master.init.TaleConst;
+import com.tale.master.model.*;
+import com.tale.master.service.*;
+import com.tale.master.utils.MapCache;
+import com.tale.master.utils.TaleUtils;
+import com.tale.master.utils.ZipUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

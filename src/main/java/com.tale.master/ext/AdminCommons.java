@@ -1,8 +1,8 @@
-package com.tale.ext;
+package com.tale.master.ext;
 
 import com.blade.kit.StringKit;
 import com.blade.kit.Tools;
-import com.tale.model.Metas;
+import com.tale.master.model.Metas;
 
 /**
  * 后台公共函数

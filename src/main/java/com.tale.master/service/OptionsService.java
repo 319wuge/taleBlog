@@ -1,4 +1,4 @@
-package com.tale.service;
+package com.tale.master.service;
 
 import java.util.Map;
 

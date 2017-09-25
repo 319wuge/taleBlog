@@ -1,7 +1,7 @@
-package com.tale.service;
+package com.tale.master.service;
 
-import com.tale.dto.MetaDto;
-import com.tale.model.Metas;
+import com.tale.master.dto.MetaDto;
+import com.tale.master.model.Metas;
 
 import java.util.List;
 

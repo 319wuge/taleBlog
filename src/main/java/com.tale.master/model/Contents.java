@@ -1,4 +1,4 @@
-package com.tale.model;
+package com.tale.master.model;
 
 import com.blade.jdbc.annotation.Table;
 

@@ -1,9 +1,9 @@
-package com.tale.init;
+package com.tale.master.init;
 
 import com.blade.Blade;
 import com.blade.config.BConfig;
 import com.blade.kit.FileKit;
-import com.tale.controller.admin.AttachController;
+import com.tale.master.controller.admin.AttachController;
 
 import java.io.File;
 import java.lang.reflect.Method;

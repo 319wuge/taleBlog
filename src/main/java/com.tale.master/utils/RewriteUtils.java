@@ -1,4 +1,4 @@
-package com.tale.utils;
+package com.tale.master.utils;
 
 public class RewriteUtils {
 

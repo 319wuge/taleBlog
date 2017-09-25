@@ -1,10 +1,10 @@
-package com.tale.service;
+package com.tale.master.service;
 
 import com.blade.jdbc.model.Paginator;
-import com.tale.dto.*;
-import com.tale.model.Comments;
-import com.tale.model.Contents;
-import com.tale.model.Users;
+import com.tale.master.dto.*;
+import com.tale.master.model.Comments;
+import com.tale.master.model.Contents;
+import com.tale.master.model.Users;
 
 import java.awt.*;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.tale.ext;
+package com.tale.master.ext;
 
 import com.blade.kit.StringKit;
 import jetbrick.template.runtime.JetTagContext;

@@ -1,8 +1,8 @@
-package com.tale.service;
+package com.tale.master.service;
 
 import com.blade.jdbc.core.Take;
 import com.blade.jdbc.model.Paginator;
-import com.tale.model.Attach;
+import com.tale.master.model.Attach;
 
 /**
  * Created by biezhi on 2017/2/23.

@@ -1,4 +1,4 @@
-package com.tale.dto;
+package com.tale.master.dto;
 
 /**
  * Created by biezhi on 2017/2/21.

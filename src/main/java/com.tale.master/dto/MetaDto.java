@@ -1,6 +1,6 @@
-package com.tale.dto;
+package com.tale.master.dto;
 
-import com.tale.model.Metas;
+import com.tale.master.model.Metas;
 
 /**
  * Created by biezhi on 2017/2/22.

@@ -1,12 +1,12 @@
-package com.tale.service.impl;
+package com.tale.master.service.impl;
 
 import com.blade.ioc.annotation.Inject;
 import com.blade.ioc.annotation.Service;
 import com.blade.jdbc.ActiveRecord;
 import com.blade.jdbc.core.Take;
 import com.blade.kit.StringKit;
-import com.tale.model.Options;
-import com.tale.service.OptionsService;
+import com.tale.master.model.Options;
+import com.tale.master.service.OptionsService;
 
 import java.util.HashMap;
 import java.util.List;

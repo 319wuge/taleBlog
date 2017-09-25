@@ -1,4 +1,4 @@
-package com.tale.service.impl;
+package com.tale.master.service.impl;
 
 import com.blade.ioc.annotation.Inject;
 import com.blade.ioc.annotation.Service;
@@ -6,13 +6,13 @@ import com.blade.jdbc.ActiveRecord;
 import com.blade.jdbc.core.Take;
 import com.blade.jdbc.model.Paginator;
 import com.blade.kit.DateKit;
-import com.tale.init.TaleConst;
-import com.tale.model.Logs;
-import com.tale.model.po.mbg.TLogs;
-import com.tale.model.po.mbg.TLogsExample;
-import com.tale.mybatis.dao.read.custom.TLogsReadDao;
-import com.tale.mybatis.dao.write.custom.TLogsWriteDao;
-import com.tale.service.LogService;
+import com.tale.master.init.TaleConst;
+import com.tale.master.model.Logs;
+import com.tale.master.model.po.mbg.TLogs;
+import com.tale.master.model.po.mbg.TLogsExample;
+import com.tale.master.mybatis.dao.read.custom.TLogsReadDao;
+import com.tale.master.mybatis.dao.write.custom.TLogsWriteDao;
+import com.tale.master.service.LogService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 

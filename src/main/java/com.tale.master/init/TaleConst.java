@@ -1,8 +1,8 @@
-package com.tale.init;
+package com.tale.master.init;
 
 import com.blade.kit.CollectionKit;
 import com.blade.kit.base.Config;
-import com.tale.dto.PluginMenu;
+import com.tale.master.dto.PluginMenu;
 
 import java.util.HashSet;
 import java.util.List;

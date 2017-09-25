@@ -1,9 +1,9 @@
-package com.tale.service;
+package com.tale.master.service;
 
 import com.blade.jdbc.core.Take;
 import com.blade.jdbc.model.Paginator;
-import com.tale.dto.Archive;
-import com.tale.model.Contents;
+import com.tale.master.dto.Archive;
+import com.tale.master.model.Contents;
 
 import java.util.List;
 

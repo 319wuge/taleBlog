@@ -1,4 +1,4 @@
-package com.tale.utils;
+package com.tale.master.utils;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

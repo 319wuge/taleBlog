@@ -1,17 +1,17 @@
-package com.tale.service.impl;
+package com.tale.master.service.impl;
 
 import com.blade.ioc.annotation.Inject;
 import com.blade.ioc.annotation.Service;
 import com.blade.jdbc.ActiveRecord;
 import com.blade.jdbc.core.Take;
 import com.blade.kit.StringKit;
-import com.tale.dto.MetaDto;
-import com.tale.dto.Types;
-import com.tale.exception.TipException;
-import com.tale.model.Contents;
-import com.tale.model.Metas;
-import com.tale.model.Relationships;
-import com.tale.service.MetasService;
+import com.tale.master.dto.MetaDto;
+import com.tale.master.dto.Types;
+import com.tale.master.exception.TipException;
+import com.tale.master.model.Contents;
+import com.tale.master.model.Metas;
+import com.tale.master.model.Relationships;
+import com.tale.master.service.MetasService;
 
 import java.util.List;
 

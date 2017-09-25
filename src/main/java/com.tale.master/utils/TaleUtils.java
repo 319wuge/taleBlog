@@ -1,4 +1,4 @@
-package com.tale.utils;
+package com.tale.master.master.utils;
 
 import com.blade.context.WebContextHolder;
 import com.blade.kit.DateKit;
@@ -13,12 +13,12 @@ import com.sun.syndication.feed.rss.Content;
 import com.sun.syndication.feed.rss.Item;
 import com.sun.syndication.io.FeedException;
 import com.sun.syndication.io.WireFeedOutput;
-import com.tale.controller.admin.AttachController;
-import com.tale.ext.Commons;
-import com.tale.ext.Theme;
-import com.tale.init.TaleConst;
-import com.tale.model.Contents;
-import com.tale.model.Users;
+import com.tale.master.controller.admin.AttachController;
+import com.tale.master.ext.Commons;
+import com.tale.master.ext.Theme;
+import com.tale.master.init.TaleConst;
+import com.tale.master.model.Contents;
+import com.tale.master.model.Users;
 import org.commonmark.Extension;
 import org.commonmark.ext.gfm.tables.TablesExtension;
 import org.commonmark.node.Node;

@@ -1,4 +1,4 @@
-package com.tale.service.impl;
+package com.tale.master.service.impl;
 
 import com.blade.ioc.annotation.Inject;
 import com.blade.ioc.annotation.Service;
@@ -8,13 +8,13 @@ import com.blade.jdbc.model.PageRow;
 import com.blade.jdbc.model.Paginator;
 import com.blade.kit.DateKit;
 import com.blade.kit.StringKit;
-import com.tale.dto.Types;
-import com.tale.exception.TipException;
-import com.tale.init.TaleConst;
-import com.tale.model.Contents;
-import com.tale.service.ContentsService;
-import com.tale.service.MetasService;
-import com.tale.utils.TaleUtils;
+import com.tale.master.dto.Types;
+import com.tale.master.exception.TipException;
+import com.tale.master.init.TaleConst;
+import com.tale.master.model.Contents;
+import com.tale.master.service.ContentsService;
+import com.tale.master.service.MetasService;
+import com.tale.master.utils.TaleUtils;
 import com.vdurmont.emoji.EmojiParser;
 
 import java.util.List;

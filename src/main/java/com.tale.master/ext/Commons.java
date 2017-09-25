@@ -1,11 +1,11 @@
-package com.tale.ext;
+package com.tale.master.ext;
 
 import com.blade.jdbc.model.Paginator;
 import com.blade.kit.*;
-import com.tale.controller.BaseController;
-import com.tale.init.TaleConst;
-import com.tale.service.SiteService;
-import com.tale.utils.TaleUtils;
+import com.tale.master.controller.BaseController;
+import com.tale.master.init.TaleConst;
+import com.tale.master.service.SiteService;
+import com.tale.master.utils.TaleUtils;
 import com.vdurmont.emoji.EmojiParser;
 
 import java.util.ArrayList;

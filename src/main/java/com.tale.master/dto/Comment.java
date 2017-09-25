@@ -1,6 +1,6 @@
-package com.tale.dto;
+package com.tale.master.dto;
 
-import com.tale.model.Comments;
+import com.tale.master.model.Comments;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.tale.service.impl;
+package com.tale.master.service.impl;
 
 import com.blade.ioc.annotation.Inject;
 import com.blade.ioc.annotation.Service;
@@ -6,9 +6,9 @@ import com.blade.jdbc.ActiveRecord;
 import com.blade.jdbc.core.Take;
 import com.blade.kit.StringKit;
 import com.blade.kit.Tools;
-import com.tale.exception.TipException;
-import com.tale.model.Users;
-import com.tale.service.UsersService;
+import com.tale.master.exception.TipException;
+import com.tale.master.model.Users;
+import com.tale.master.service.UsersService;
 
 @Service
 public class UsersServiceImpl implements UsersService {

@@ -1,4 +1,4 @@
-package com.tale.init;
+package com.tale.master.init;
 
 import com.blade.Blade;
 import com.blade.kit.IOKit;

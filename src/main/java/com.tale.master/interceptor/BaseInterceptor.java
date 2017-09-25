@@ -1,4 +1,4 @@
-package com.tale.interceptor;
+package com.tale.master.interceptor;
 
 import com.blade.ioc.annotation.Inject;
 import com.blade.kit.IPKit;
@@ -8,12 +8,12 @@ import com.blade.mvc.annotation.Intercept;
 import com.blade.mvc.http.Request;
 import com.blade.mvc.http.Response;
 import com.blade.mvc.interceptor.Interceptor;
-import com.tale.dto.Types;
-import com.tale.init.TaleConst;
-import com.tale.model.Users;
-import com.tale.service.UsersService;
-import com.tale.utils.MapCache;
-import com.tale.utils.TaleUtils;
+import com.tale.master.dto.Types;
+import com.tale.master.init.TaleConst;
+import com.tale.master.model.Users;
+import com.tale.master.service.UsersService;
+import com.tale.master.utils.MapCache;
+import com.tale.master.utils.TaleUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
