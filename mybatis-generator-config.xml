@@ -23,13 +23,13 @@
         <javaTypeResolver type="x.flyspace.mybatisgenerator.type.CustomJavaTypeResolver">
             <property name="customTypeMap" value="TINYINT:java.lang.Integer"/>
         </javaTypeResolver>
-        <javaModelGenerator targetPackage="com.tale.model.po.mbg"
+        <javaModelGenerator targetPackage="com.tale.master.model.po.mbg"
                             targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
             <property name="renamePlugin.prefix" value=""/>
         </javaModelGenerator>
-        <sqlMapGenerator targetPackage="com.tale.mybatis.mappers.write.mbg"
+        <sqlMapGenerator targetPackage="com.tale.master.mybatis.mappers.write.mbg"
                          targetProject="src/main/resources">
             <property name="enableSubPackages" value="true"/>
             <property name="renamePlugin.search" value="Mapper\z"/>
@@ -39,7 +39,7 @@
             <property name="separateUserCodePlugin.search" value="Dao\z"/>
             <property name="separateUserCodePlugin.replace" value="Mapper"/>
         </sqlMapGenerator>
-        <javaClientGenerator targetPackage="com.tale.mybatis.dao.write.mbg"
+        <javaClientGenerator targetPackage="com.tale.master.mybatis.dao.write.mbg"
                              targetProject="src/main/java"
                              type="XMLMAPPER">
             <property name="enableSubPackages" value="true"/>
@@ -48,7 +48,7 @@
             <property name="renamePlugin.search" value="Mapper\z"/>
             <property name="renamePlugin.replace" value="WriteDao"/>
             <property name="separateUserCodePlugin.targetPackage"
-                      value="com.tale.mybatis.dao.write.custom"/>
+                      value="com.tale.master.dao.write.custom"/>
             <property name="separateUserCodePlugin.search" value="\AMBG"/>
             <property name="separateUserCodePlugin.replace" value=""/>
         </javaClientGenerator>
@@ -108,13 +108,13 @@
         <javaTypeResolver type="x.flyspace.mybatisgenerator.type.CustomJavaTypeResolver">
             <property name="customTypeMap" value="TINYINT:java.lang.Integer"/>
         </javaTypeResolver>
-        <javaModelGenerator targetPackage="com.tale.model.po.mbg"
+        <javaModelGenerator targetPackage="com.tale.master.model.po.mbg"
                             targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
             <property name="renamePlugin.prefix" value=""/>
         </javaModelGenerator>
-        <sqlMapGenerator targetPackage="com.tale.mybatis.mappers.read.mbg"
+        <sqlMapGenerator targetPackage="com.tale.master.mybatis.mappers.read.mbg"
                          targetProject="src/main/resources">
             <property name="enableSubPackages" value="true"/>
             <property name="renamePlugin.search" value="Mapper\z"/>
@@ -124,7 +124,7 @@
             <property name="separateUserCodePlugin.search" value="Dao\z"/>
             <property name="separateUserCodePlugin.replace" value="Mapper"/>
         </sqlMapGenerator>
-        <javaClientGenerator targetPackage="com.tale.mybatis.dao.read.mbg"
+        <javaClientGenerator targetPackage="com.tale.master.mybatis.dao.read.mbg"
                              targetProject="src/main/java"
                              type="XMLMAPPER">
             <property name="enableSubPackages" value="true"/>
@@ -133,7 +133,7 @@
             <property name="renamePlugin.search" value="Mapper\z"/>
             <property name="renamePlugin.replace" value="ReadDao"/>
             <property name="separateUserCodePlugin.targetPackage"
-                      value="com.tale.mybatis.dao.read.custom"/>
+                      value="com.tale.master.dao.read.custom"/>
             <property name="separateUserCodePlugin.search" value="\AMBG"/>
             <property name="separateUserCodePlugin.replace" value=""/>
         </javaClientGenerator>
